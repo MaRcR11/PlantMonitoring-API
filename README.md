@@ -70,6 +70,7 @@
                             "value": 99801.4,
                             "unit": "Pa"
                         }
+                         // More sensor objects
                     ]
                 }
                 // More measurement objects
