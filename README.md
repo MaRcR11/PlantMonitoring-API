@@ -86,3 +86,33 @@
         "limit": 100
     }
 }
+```
+
+## Endpoint
+
+- **URL:** `/api/getPlantNames`
+- **Method:** `GET`
+
+## Responses
+
+### Success
+
+- **Status Code:** `200 OK`
+- **Content:**
+
+    ```json
+    {
+        "plantNames": [
+            "test_plant_1",
+            "test_plant_2",
+            "test_plant_3"
+            // More plant names
+        ],
+        "totalPlants": 3
+    }
+    ```
+
+    | Field        | Type   | Description                              |
+    |--------------|--------|------------------------------------------|
+    | plantNames   | array  | An array of unique plant names.          |
+    | totalPlants  | number | The total number of distinct plant names.|
